@@ -1,11 +1,15 @@
 #include <iostream>
 using namespace std;
 
-class node
+class Node
 {
     public:
     int data;
-    Node *next;
+    Node*next;
 
-    
+
+    Node()
+    {
+        next = NULL;
+    }
 };
