@@ -13,3 +13,8 @@ class Node
         next = NULL;
     }
 };
+
+class stack
+{
+
+};
